@@ -1,0 +1,15 @@
+git init
+
+git remote add origin <origin path>
+
+git pull origin <branch name>
+
+git add .
+
+git commit -m ""
+
+git push origin <branch_name>
+
+
+
+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
