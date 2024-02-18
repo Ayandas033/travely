@@ -1,0 +1,429 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+  
+}
+/* .container{
+    width: 1170px;
+    margin: 0 auto;
+} */
+h1,h2,h3,h4,h5,h6, p{
+    margin:0;
+    padding:0;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.clear{
+    clear:both;
+}
+
+
+
+
+
+header{
+    padding: 20px 0px;
+   
+}
+/* .header img{
+   
+}
+.menu{
+    float: right;
+    padding-top: 30px;
+}
+.menu{
+    float: right;
+    padding-top: 45px; 
+}
+.menu li{
+    float: left;
+    padding-left: 20px;
+}
+.menu li a{
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-transform: uppercase;
+}
+.menu li a.active{
+    color:#ff7c5b;
+    text-decoration: underline;
+}
+.menu li a:hover{
+    color: #ff7c5b;
+    text-decoration: underline;
+} */
+
+header .navbar-light .navbar-nav .nav-link{
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-transform: capitalize;
+}
+header .navbar-light .navbar-nav .nav-link.active{
+    color: #1c79be;
+    text-decoration: underline;
+}
+header .navbar-light .navbar-nav .nav-link:hover{
+    color: #1c79be;
+    text-decoration: underline;
+}
+
+
+/* .banner{
+    background-image: url(../images/contant-us-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;   
+}
+.banner h1{
+      
+}
+.banner p{
+   
+}
+.banner p span{
+    font-size: 20px;
+    line-height: 24px;
+    color: #ff7c5b;   
+    padding: 20px 0px;
+    text-align: center;
+    padding-left: 10px;    
+}
+.banner p span:hover{
+    text-decoration: underline;
+} */
+.contact-us-banner .carousel-inner .carousel-caption{
+    padding-bottom:90px;
+}
+.contact-us-banner .carousel-inner .carousel-caption h1{
+    font-size: 60px;
+    line-height: 64px;
+    color: #fff;
+    text-align: center; 
+    font-weight: bold;
+}
+.contact-us-banner .carousel-inner .carousel-caption p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;   
+    padding: 20px 0px;
+    text-align: center; 
+    text-transform: uppercase;
+}
+.contact-us-banner .carousel-inner .carousel-caption p span{
+    font-size: 20px;
+    line-height: 24px;
+    color: #1c79be;   
+    padding: 20px 0px;
+    text-align: center;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+
+/* .contact-us-with{
+    padding: 50px 0px;
+}
+.contact-us-with .box{    
+    
+}  
+.contact-us-with .box h5{
+    
+   
+}
+.contact-us-with .box .box-image{
+    
+}
+.contact-us-with .box:hover h5{
+    color: #ff7c5b;
+} */
+.contact{
+    padding: 50px 0px;
+}
+.contact .card{
+    border: 2px solid  #1c79be; 
+    height: 220px;
+    margin: 10px 0px;   
+}
+.contact .card .box{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;   
+    float: left;
+    padding: 10px 0px; 
+}
+.contact .card .box .box-image{
+    background-color: #ffffff;;    
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+.contact .card .box .box-image svg path{
+    fill: #1c79be;
+}
+.contact .card .box:hover .box-image{
+    background-color: #fff; 
+    box-shadow: 2px 2px 2px 2px #1c78be7b;  
+}
+.contact .card .box .card-body h5{
+    font-size: 18px;
+    line-height: 22px;
+    color: #1c79be #000;   
+    text-align: center;    
+}
+.contact .card .box:hover .card-body h5{
+    color:  #1c79be;
+}
+
+
+
+
+.conect-with-us{
+    background-image: url(../images/contact-us-get-in-touch-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.conect-with-us .conect-with-us-header h1{
+    font-size: 40px;
+    line-height: 44px;
+    color: #83c557;
+    text-align: center; 
+}
+.conect-with-us .conect-with-us-header p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;   
+    padding: 20px 0px;
+    text-align: center;   
+}
+
+/* .conect-with-us .conect-with-us-body form{
+    padding: 20px 0px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.conect-with-us .conect-with-us-body .form-info label{
+    display: block;
+    padding: 20px 0px;
+    font-size: 20px;
+    color: #fff;
+}
+.conect-with-us .conect-with-us-body .form-info input{
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+.conect-with-us .conect-with-us-body .form-top{
+  display: flex;
+  justify-content: space-between; 
+}
+.conect-with-us .conect-with-us-body .form-right{}
+ 
+.form-info-messeges{
+
+}
+.form-info-messeges label{
+
+}
+.form-info-messeges label textarea{
+    background-color: transparent;
+} */
+.conect-with-us .form-label{
+    margin-bottom: .5rem;
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+}
+.conect-with-us .form-control{
+    border: 1px solid #fff;
+    background-color: #ffffff5e;
+}
+.conect-with-us .form-check-label{
+    margin-bottom: .5rem;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+}
+.conect-with-us .btn-primary{
+    background-color: #1c79be;
+    border:1px solid #1c79be; 
+}
+.conect-with-us .btn-primary:hover{
+   background-color: #83c557;
+   border:1px solid #83c557; 
+}
+
+
+
+footer{
+    background-image: url(../images/home-page-map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;   
+}
+.footer-left p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    padding: 20px 0px;
+}
+footer h6{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    text-decoration: underline;
+}
+.social-site {
+    display: flex;
+    padding: 10px 0px;
+}
+.social-site .our-sites svg{   
+    float: left;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1c79be;
+}
+.social-site .our-sites svg path{
+    fill: #fff;
+}
+.social-site svg:hover path{
+    fill: #fff;   
+}
+.social-site svg:hover{
+    background-color: #83c557;     
+}
+
+.footer-middle .f-menu{
+    float: left;    
+}
+.footer-middle h4,.footer-right h4,.footer-gallery h4{
+    font-size: 26px;
+    line-height: 30px;
+    color: #000;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 20px 0px;
+}
+.footer-middle h4:hover,.footer-right h4:hover,.footer-gallery h4:hover{
+    color: #1c79be;
+    text-decoration: underline;
+}
+.f-menu li{
+    padding: 10px 0px;
+}
+.footer-middle .f-menu li a{
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-transform: capitalize;    
+}
+.footer-middle .f-menu li a:hover{
+    color: #1c79be;
+    text-decoration: underline;
+}
+
+.f-gallery-image{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    padding-top: 20px;
+   
+}
+.footer-image img{
+    border-radius: 10px;
+}
+.conect{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+.conect svg path{
+    fill: #fff;
+}
+.conect svg{
+    float: left;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1c79be;
+}
+.conect svg:hover path{
+    fill: #fff;
+}
+.conect svg:hover{
+    background-color: #83c557;   
+}
+.footer-right{
+    padding-left: 20px;
+}
+.footer-right h6{
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-right h6:hover{    
+    color: #1c79be;
+}
+.footer-right a.button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #1c79be;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize; 
+    border-radius: 5px;   
+}
+
+.footer-right .button:hover{
+    color: #fff;  
+    background-color:#83c557;
+}
+
+.footre-bottom{
+    padding: 20px;
+    background-color:#0000005e;
+
+}
+.footre-bottom-body{
+    display: flex;
+    justify-content: space-between;
+}
+.footre-bottom-body .copyright p{
+    font-size: 20px;
+    line-height: 24px;
+    color:#0000008f;
+    padding: 20px 0px;
+}
+
+/* responsive */
+@media (min-width: 768px) and (max-width: 1063px) { 
+    .banner .carousel-item h1{
+        display: none;
+
+}
+}

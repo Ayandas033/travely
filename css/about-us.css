@@ -1,0 +1,384 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+h1,h2,h3,h4,h5,h6, p{
+    margin:0;
+    padding:0;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.clear{
+    clear:both;
+}
+header{
+    padding: 10px 0px;
+}
+header .navbar-light .navbar-nav .nav-link{
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-transform: capitalize;
+    
+}
+header .navbar-light .navbar-nav .nav-link.active{
+    color: #1c79be;
+    text-decoration: underline;
+}
+header .navbar-light .navbar-nav .nav-link:hover{
+    color: #1c79be;
+    text-decoration: underline;
+}
+.nav-item-search{
+    padding-left: 20px;
+}
+.banner .carousel-caption{
+    margin-bottom: 432px;
+}
+.banner .carousel-indicators{
+    border-radius: 50%;
+    padding: 6px 6px;
+    color: #000;
+}
+.banner .carousel-caption h2{
+    color: yellow;
+    font-size: 20px;
+}
+.banner .carousel-caption p{
+    color: #fff;
+    font-size: 50px;
+}
+.banner .carousel-caption button{
+    padding: 10px 58px;
+    font-size: 20px;
+    color: #fff;
+    /*! background-color:transparent; */
+}
+.banner .carousel-caption button:hover{
+     color:#000;
+     background-color: aquas;
+}
+.about-us{
+    background-color: #824a4a;
+    padding: 60px 30px;
+    margin-top: 30px;
+}
+.about-us .card{
+   background-color: transparent;
+    border: none;
+}
+.about-us .card img{
+    width: 110%;
+}
+.about-us.card img{
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+}
+.about-us .card .overlay{
+    position: absolute;
+    content: ;
+    top: 0px;
+    bottom: 0px;
+    left:0px ;
+    right:-29px;
+    background-color: #0000008f;
+    opacity: 0.5;
+}
+.about-us .card .overlay span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase
+}
+.about-us .card .overlay:hover{
+    opacity: 1;
+}
+.about-us .card-body h3{
+    font-size:40px ;
+    text-transform: capitalize;
+    color: rgb(188, 175, 250);
+}
+.about-us .card-body p{
+    font-size:20px ;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    line-height: 34px;
+}
+.travel-tour{
+    padding: 20px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/home-page-map.png);
+}
+.travel-tour h4{
+    font-size: 40px;
+    line-height: 44px;
+    color: #83c557;
+    padding: 20px 0px;
+    text-align: center;
+}
+.travel-tour .card{
+    border: none;
+    padding: 10px 0px;
+}
+.travel-tour .card img{
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+}
+.travel-tour .card .overlay{
+    position: absolute;
+    content: ;
+    top: 19px;
+    bottom: 19px;
+    left:0px ;
+    right:0px ;
+    background-color: #0000008f;
+    opacity: 0;
+}
+.travel-tour .card .overlay span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase
+}
+.travel-tour .card .overlay:hover{
+    opacity: 1;
+}
+.get-in-touch{
+    background-color: #ffffff;
+    padding: 50px 0px;
+}
+.get-in-touch .get-in-touch-header{
+    padding-bottom: 20px ;
+}
+.get-in-touch .get-in-touch-header h5{
+    font-size: 38px;
+    line-height: 22px;
+    color: #1c79be;
+    text-align: center;
+}
+.get-in-touch .get-in-touch-header h1{
+    font-size: 34px;
+    line-height: 58px;
+    color: #000;
+    text-align: center;
+}
+.get-in-touch .box{
+   display: flex;
+   align-items: center;
+   flex-flow: column;
+   justify-content: center;
+   float: left;
+   padding: 10px 0px;
+   margin: 10px 0px;
+  
+}
+.get-in-touch .box:hover .box-image{
+    background-color: #fff; 
+    box-shadow: 2px 2px 2px 2px #1c78be7b;   
+}
+.get-in-touch .box:hover .box-image svg path{
+    fill: #1c79be;
+}
+.get-in-touch .box-image{
+    background-color: #fff;    
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+.box-image svg path{
+    fill:  #1c79be;     
+}
+.get-in-touch .box h5{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;    
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.get-in-touch .box p{
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: 200;
+}
+.get-in-touch .box p:hover{
+    color: #1c79be;
+}
+footer{
+    background-image:url(../img/home-page-map.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;   
+}
+.footer-left p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    padding: 20px 0px;
+}
+footer h6{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    text-decoration: underline;
+}
+.social-site {
+    display: flex;
+    padding: 10px 0px;
+}
+.social-site .our-sites svg{   
+    float: left;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1c79be;
+}
+.social-site .our-sites svg path{
+    fill: #fff;
+}
+.social-site svg:hover path{
+    fill: #fff;   
+}
+.social-site svg:hover{
+    background-color: #83c557;     
+}
+
+.footer-middle .f-menu{
+    float: left;    
+}
+.footer-middle h4,.footer-right h4,.footer-gallery h4{
+    font-size: 26px;
+    line-height: 30px;
+    color: #000;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 20px 0px;
+}
+.footer-middle h4:hover,.footer-right h4:hover,.footer-gallery h4:hover{
+    color: #1c79be;
+    text-decoration: underline;
+}
+.f-menu li{
+    padding: 10px 0px;
+}
+.footer-middle .f-menu li a{
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-transform: capitalize;    
+}
+.footer-middle .f-menu li a:hover{
+    color: #1c79be;
+    text-decoration: underline;
+}
+
+.f-gallery-image{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    padding-top: 20px;
+   
+}
+.footer-image img{
+    border-radius: 10px;
+}
+.conect{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+.conect svg path{
+    fill: #fff;
+}
+.conect svg{
+    float: left;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1c79be;
+}
+.conect svg:hover path{
+    fill: #fff;
+}
+.conect svg:hover{
+    background-color: #83c557;   
+}
+.footer-right{
+    padding-left: 20px;
+}
+.footer-right h6{
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-right h6:hover{    
+    color: #1c79be;
+}
+.footer-right a.button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #1c79be;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize; 
+    border-radius: 5px;   
+}
+
+.footer-right .button:hover{
+    color: #fff;  
+    background-color:#83c557;
+}
+.footre-bottom{
+    padding: 9px;
+    background-color:#0000005e;
+
+}
+.footre-bottom-body{
+    display: flex;
+    justify-content: space-between;
+}
+.footre-bottom-body .copyright p{
+    font-size: 20px;
+    line-height: 24px;
+    color:#0000008f;
+    padding: 20px 0px;
+}
